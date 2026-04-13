@@ -1,5 +1,6 @@
-use crate::cars::speedster::Speedster;
-pub mod cars;
+pub mod vehicles;
+
+use crate::vehicles::cars::speedster::Speedster;
 
 fn main() {
     let my_speedster = Speedster {
